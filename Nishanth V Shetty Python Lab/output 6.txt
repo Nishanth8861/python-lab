@@ -1,0 +1,22 @@
+Output
+
+Phone Book Contacts:
+John: 9876543210
+Alice: 9123456780
+Bob: 9988776655
+
+After adding Eve:
+{'John': '9876543210', 'Alice': '9123456780', 'Bob': '9988776655', 'Eve': '9012345678'}
+
+After updating John's number:
+{'John': '9999999999', 'Alice': '9123456780', 'Bob': '9988776655', 'Eve': '9012345678'}
+
+Alice's number is 9123456780
+
+After deleting Bob:
+{'John': '9999999999', 'Alice': '9123456780', 'Eve': '9012345678'}
+
+Using get() to find Charlie: Not Found
+
+All names: ['John', 'Alice', 'Eve']
+All numbers: ['9999999999', '9123456780', '9012345678']

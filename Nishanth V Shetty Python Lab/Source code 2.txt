@@ -1,0 +1,61 @@
+Source Code 
+
+team = [
+    {"runs_scored": 148, "balls_faced": 50, "wkts": 4, "runs_given": 29, "overs_bowled": 2, "catch": 3},
+    {"runs_scored": 179, "balls_faced": 62, "wkts": 8, "runs_given": 32, "overs_bowled": 3, "catch": 2},
+    {"runs_scored": 156, "balls_faced": 59, "wkts": 6, "runs_given": 29, "overs_bowled": 4, "catch": 2},
+    {"runs_scored": 117, "balls_faced": 41, "wkts": 5, "runs_given": 31, "overs_bowled": 3, "catch": 2}
+]
+
+count = 1
+for player in team:
+
+    sr = (player["runs_scored"] / player["balls_faced"]) * 100
+    eco = player["runs_given"] / player["overs_bowled"]
+
+    if sr > 130 and player["runs_scored"] >= 60:
+        bat_status = "Top Batter"
+    elif sr > 110:
+        bat_status = "Reliable Batter"
+    elif player["runs_scored"] >= 25:
+        bat_status = "Moderate Batter"
+    else:
+        bat_status = "Weak Batter"
+
+    if player["wkts"] >= 4 and eco < 6:
+        bowl_status = "Top Bowler"
+    elif player["wkts"] >= 2:
+        bowl_status = "Effective Bowler"
+    elif player["wkts"] == 1:
+        bowl_status = "Part-time Bowler"
+    else:
+        bowl_status = "Needs Bowling Practice"
+
+    if player["catch"] >= 3:
+        field_status = "Brilliant Fielder"
+    elif player["catch"] == 2:
+        field_status = "Good Fielder"
+    elif player["catch"] == 1:
+        field_status = "Average Fielder"
+    else:
+        field_status = "Poor Fielding"
+
+    if bat_status == "Top Batter" and bowl_status == "Top Bowler":
+        overall_status = "Outstanding All-Rounder"
+    elif bat_status == "Reliable Batter" and bowl_status == "Effective Bowler":
+        overall_status = "Balanced All-Rounder"
+    elif bat_status == "Reliable Batter" or bowl_status == "Effective Bowler":
+        overall_status = "Useful Player"
+    else:
+        overall_status = "Needs Training"
+
+    print("Player No:", count)
+    print("Strike Rate:", round(sr, 2))
+    print("Economy:", round(eco, 2))
+    print("Batting Performance:", bat_status)
+    print("Bowling Performance:", bowl_status)
+    print("Fielding Performance:", field_status)
+    print("Overall Rating:", overall_status)
+    print()
+
+    count += 1

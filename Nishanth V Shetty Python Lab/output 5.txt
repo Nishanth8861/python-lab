@@ -1,0 +1,27 @@
+Output
+
+All Employee Details:
+('John', 28, 'IT', 50000)
+('Alice', 32, 'HR', 60000)
+('Bob', 25, 'Marketing', 45000)
+('Eve', 30, 'Finance', 55000)
+
+Accessing individual employee details:
+Name of first employee: John
+Department of third employee: Marketing
+
+Count of employee 'Bob' tuple: 1
+Index of Alice: 1
+Number of employees: 4
+
+Accessing Salary of second employee: 60000
+
+After adding a new employee:
+('John', 28, 'IT', 50000)
+('Alice', 32, 'HR', 60000)
+('Bob', 25, 'Marketing', 45000)
+('Eve', 30, 'Finance', 55000)
+('David', 27, 'IT', 48000)
+
+Slicing first two employees:
+(('John', 28, 'IT', 50000), ('Alice', 32, 'HR', 60000))

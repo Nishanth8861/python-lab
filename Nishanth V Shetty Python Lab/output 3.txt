@@ -1,0 +1,13 @@
+output
+
+Original String: Hello Python Programming
+Length of String: 24
+Uppercase: HELLO PYTHON PROGRAMMING
+Lowercase: hello python programming
+First 5 characters: Hello
+Concatenated String: Hello World
+Repeated String: HelloHelloHello
+Is 'Python' in string? True
+After Replace: Hello Java Programming
+Split String: ['Hello', 'Python', 'Programming']
+Reversed String: gnimmargorP nohtyP olleH

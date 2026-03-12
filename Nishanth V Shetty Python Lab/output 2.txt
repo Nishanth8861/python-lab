@@ -1,0 +1,33 @@
+Output
+
+Player No: 1
+Strike Rate: 296.0
+Economy: 14.5
+Batting Performance: Top Batter
+Bowling Performance: Effective Bowler
+Fielding Performance: Brilliant Fielder
+Overall Rating: Useful Player
+
+Player No: 2
+Strike Rate: 288.71
+Economy: 10.67
+Batting Performance: Top Batter
+Bowling Performance: Effective Bowler
+Fielding Performance: Good Fielder
+Overall Rating: Useful Player
+
+Player No: 3
+Strike Rate: 264.41
+Economy: 7.25
+Batting Performance: Top Batter
+Bowling Performance: Effective Bowler
+Fielding Performance: Good Fielder
+Overall Rating: Useful Player
+
+Player No: 4
+Strike Rate: 285.37
+Economy: 10.33
+Batting Performance: Top Batter
+Bowling Performance: Effective Bowler
+Fielding Performance: Good Fielder
+Overall Rating: Useful Player

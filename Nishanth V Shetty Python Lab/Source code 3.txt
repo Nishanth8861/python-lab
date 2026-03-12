@@ -1,0 +1,16 @@
+Source Code
+
+text = "Hello Python Programming"
+print("Original String:", text)
+print("Length of String:", len(text))
+print("Uppercase:", text.upper())
+print("Lowercase:", text.lower())
+print("First 5 characters:", text[0:5])
+s1 = "Hello"
+s2 = "World"
+print("Concatenated String:", s1 + " " + s2)
+print("Repeated String:", s1 * 3)
+print("Is 'Python' in string?", "Python" in text)
+print("After Replace:", text.replace("Python", "Java"))
+print("Split String:", text.split())
+print("Reversed String:", text[::-1])

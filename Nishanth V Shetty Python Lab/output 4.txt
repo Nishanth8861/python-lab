@@ -1,0 +1,21 @@
+Output 
+
+Keywords List:
+['Python', 'powerful', 'programming', 'language', 'web', 'development', 'data', 'science', 'machine', 'learning', 'artificial', 'intelligence', 'automation', 'cybersecurity', 'cloud', 'computing', 'software', 'mobile', 'applications', 'technology', 'coding', 'developer', 'system', 'analysis', 'design']
+
+Length of list: 25
+
+After append: ['Python', 'powerful', 'programming', 'language', 'web', 'development', 'data', 'science', 'machine', 'learning', 'artificial', 'intelligence', 'automation', 'cybersecurity', 'cloud', 'computing', 'software', 'mobile', 'applications', 'technology', 'coding', 'developer', 'system', 'analysis', 'design', 'innovation']
+
+After insert: ['Python', 'powerful', 'programming', 'computer', 'language', 'web', 'development', 'data', 'science', 'machine', 'learning', 'artificial', 'intelligence', 'automation', 'cybersecurity', 'cloud', 'computing', 'software', 'mobile', 'applications', 'technology', 'coding', 'developer', 'system', 'analysis', 'design', 'innovation']
+
+After remove: ['Python', 'powerful', 'programming', 'computer', 'language', 'web', 'development', 'data', 'science', 'machine', 'learning', 'artificial', 'intelligence', 'automation', 'cybersecurity', 'cloud', 'computing', 'software', 'applications', 'technology', 'coding', 'developer', 'system', 'analysis', 'design', 'innovation']
+
+After pop: ['Python', 'powerful', 'programming', 'computer', 'language', 'web', 'development', 'data', 'science', 'machine', 'learning', 'artificial', 'intelligence', 'automation', 'cybersecurity', 'cloud', 'computing', 'software', 'applications', 'technology', 'coding', 'developer', 'system', 'analysis', 'design']
+
+Sorted list: ['Python', 'analysis', 'applications', 'artificial', 'automation', 'cloud', 'coding', 'computer', 'computing', 'cybersecurity', 'data', 'design', 'developer', 'development', 'intelligence', 'language', 'learning', 'machine', 'powerful', 'programming', 'science', 'software', 'system', 'technology', 'web']
+
+Reversed list: ['web', 'technology', 'system', 'software', 'science', 'programming', 'powerful', 'machine', 'learning', 'language', 'intelligence', 'development', 'developer', 'design', 'data', 'cybersecurity', 'computing', 'computer', 'coding', 'cloud', 'automation', 'artificial', 'applications', 'analysis', 'Python']
+
+Count of 'development': 1
+Index of 'data': 14

@@ -1,0 +1,36 @@
+Output
+
+Integer: 10
+Float: 3.5
+Complex: (2+3j)
+String: Python
+List: [1, 2, 3]
+Tuple: (4, 5, 6)
+Set: {7, 8, 9}
+Dictionary: {'name': 'John', 'age': 21}
+Boolean: True
+
+Arithmetic Operators
+Addition: 13.5
+Subtraction: 6.5
+Multiplication: 35.0
+Division: 2.857142857142857
+Modulus: 1
+Exponent: 100
+Floor Division: 3
+
+Comparison Operators
+a > b: True
+a < b: False
+a == b: False
+a != b: True
+
+Logical Operators
+x and y: False
+x or y: True
+not x: False
+
+Assignment Operators
+Initial x: 5
+x += 3: 8
+x *= 2: 16

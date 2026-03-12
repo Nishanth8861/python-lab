@@ -1,0 +1,34 @@
+Source Code
+
+keywords = [
+"Python","powerful","programming","language","web","development","data",
+"science","machine","learning","artificial","intelligence","automation",
+"cybersecurity","cloud","computing","software","mobile","applications",
+"technology","coding","developer","system","analysis","design"
+]
+print("\nKeywords List:")
+print(keywords)
+
+print("\nLength of list:", len(keywords))
+
+keywords.append("innovation")
+print("\nAfter append:", keywords)
+
+keywords.insert(3, "computer")
+print("\nAfter insert:", keywords)
+
+keywords.remove("mobile")
+print("\nAfter remove:", keywords)
+
+keywords.pop()
+print("\nAfter pop:", keywords)
+
+keywords.sort()
+print("\nSorted list:", keywords)
+
+keywords.reverse()
+print("\nReversed list:", keywords)
+
+print("\nCount of 'development':", keywords.count("development"))
+
+print("Index of 'data':", keywords.index("data"))
